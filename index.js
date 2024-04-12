@@ -1,5 +1,5 @@
 // Establish WebSocket connection
-const socket = new WebSocket('ws://your_server_ip:3000');
+const socket = new WebSocket('ws://80.230.158.202:3000');
 
 // Function to send messages to the server
 function sendMessage(value) {
