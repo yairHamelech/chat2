@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="chat" id="chat">
+      <div id="messages" class="messages"></div>
+      <input
+        onkeydown="if (event.keyCode == 13){
+      sendMessage(value); value=null}"
+        placeholder="write your contant here..."
+        id="textChat"
+      />
+    </div>
+    <div class="opinion">
+      <h5>choose the discussion subject</h5>
+      <div value="football">
+        <p>football</p>
+        <div class="choose">
+          <div value="1" onclick="chat()">beitar</div>
+          <div>MTV</div>
+          <div>HTV</div>
+          <div>haifa</div>
+          <div>beer sheva</div>
+          <div>natania</div>
+        </div>
+      </div>
+      <div value="politics">
+        <p>politics</p>
+        <div class="choose">
+          <div>right</div>
+          <div>left</div>
+          <div>pro-</div>
+          <div>pro-</div>
+          <div>pro-</div>
+          <div>pro-</div>
+        </div>
+      </div>
+      <div value="religion">
+        <p>religion</p>
+        <div class="choose">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>
